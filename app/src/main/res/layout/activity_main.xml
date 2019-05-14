@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Nome:"
+              android:background="#4CAF50"
+              android:textSize="18sp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#F44336"
+              android:id="@+id/txt_nome"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Idade:"
+              android:background="#4CAF50"
+              android:textSize="18sp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#F44336"
+              android:id="@+id/txt_idade"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Sexo:"
+              android:background="#4CAF50"
+              android:textSize="18sp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#F44336"
+              android:id="@+id/txt_sexo"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Tamanho de bunda:"
+              android:background="#4CAF50"
+              android:textSize="18sp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#F44336"
+              android:id="@+id/txt_tamanho_de_bunda"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preencher"
+            android:id="@+id/btn_preencher"/>
+
+</LinearLayout>
